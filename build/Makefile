@@ -1,0 +1,2 @@
+All:
+	g++ ../src/Location.cpp ../src/World.cpp ../src/GameManager.cpp ../src/State.cpp ../src/Command.cpp ../src/CommandProcessor.cpp ../src/Item.cpp ../src/Inventory.cpp ../src/Player.cpp ../src/Attribute.cpp ../src/Enemy.cpp ../src/Action.cpp ../src/Door.cpp ../src/Window.cpp ../src/InputHandler.cpp ../src/Program.cpp -o game.exe -g -Wall -Wno-missing-braces -I ../include/ -L ../lib/ -lraylib -opengl32 -lgdi32 -lwinmm -lmingw32

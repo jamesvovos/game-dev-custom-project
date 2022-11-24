@@ -1,0 +1,144 @@
+{
+    "world": {
+        "locations": {
+            "aCabin": {
+                "id": "0",
+                "name": "a mountain",
+                "description": "This is a strange place to have a door... I wonder where this goes?",
+                "texture": "../src/assets/maps/mountains.png"
+            },
+            "aForrest": {
+                "id": "1",
+                "name": "a forrest",
+                "description": "It's humid out here... but quite a nice view really.",
+                "texture": "../src/assets/maps/forrest.png"
+            },
+            "aPondsEdge": {
+                "id": "3",
+                "name": "a ponds edge",
+                "description": "Next to a medium sized pond",
+                "texture": "../src/assets/maps/waterfront.png"
+            },
+            "aDelve": {
+                "id": "5",
+                "name": "a delve",
+                "description": "Why is it so cold down here? Wait! Thats a nice pond!",
+                "texture": "../src/assets/maps/cave.png"
+            }
+        },
+        "connections": {
+            "aCabin": {
+                "from": "a mountain",
+                "to": [
+                    "north:a forrest",
+                    "west:a ponds edge"
+                ]
+            },
+            "aForrest": {
+                "from": "a forrest",
+                "to": [
+                    "north:a ponds edge",
+                    "south:a mountain"
+                ]
+            },
+            "aPondsEdge": {
+                "from": "a ponds edge",
+                "to": [
+                    "east:a delve",
+                    "south:a forrest"
+                ]
+            },
+            "aDelve": {
+                "from": "a delve",
+                "to": [
+                    "north:a mountain",
+                    "west:a ponds edge"
+                ]
+            }
+        },
+        "items": {
+            "sword": {
+                "name": "sword",
+                "description": "A sharp sword with a tint of blue to find trolls!",
+                "atLocation": "a mountain",
+                "posX": 200,
+                "posY": 355,
+                "texture": "../src/assets/items/Sword.png"
+            },
+            "potion": {
+                "name": "potion",
+                "description": "A strange liquid that glows red!",
+                "atLocation": "a mountain",
+                "posX": 250,
+                "posY": 355,
+                "texture": "../src/assets/items/Potion01.png"
+            },
+            "shield": {
+                "name": "scroll",
+                "description": "bears the words of a single spell, written in a mystical cipher",
+                "atLocation": "a forrest",
+                "posX": 300,
+                "posY": 355,
+                "texture": "../src/assets/items/Scroll.png"
+            }
+        },
+        "enemies": {
+            "magician": {
+                "name": "dark magician",
+                "description": "Shrouded in darkness, a powerful sorcerer.",
+                "atLocation": "a mountain",
+                "posX": 650,
+                "posY": 285,
+                "texture": "../src/assets/sprites/Mage.png"
+            },
+            "troll": {
+                "name": "troll",
+                "description": "It smells of rotten flesh.",
+                "atLocation": "a delve",
+                "posX": 300,
+                "posY": 355,
+                "texture": "../src/assets/sprites/Troll.png"
+            }
+        },
+        "attributes": {
+            "health": 100,
+            "mana": 100
+        },
+        "bag": {
+            "bag": {
+                "name": "bag",
+                "description": "The bag is small and tied closed with a piece of string.",
+                "atLocation": "a mountain",
+                "posX": 150,
+                "posY": 360,
+                "texture": "../src/assets/items/Chest.png"
+            }
+        },
+        "doors": {
+            "mountaindoor": {
+                "atLocation": "a mountain",
+                "posX": 837,
+                "posY": 287,
+                "texture": "../src/assets/locationassets/door.png"
+            },
+            "forrestdoor": {
+                "atLocation": "a forrest",
+                "posX": 63,
+                "posY": 287,
+                "texture": "../src/assets/locationassets/door.png"
+            },
+            "waterfrontdoor": {
+                "atLocation": "a ponds edge",
+                "posX": 837,
+                "posY": 287,
+                "texture": "../src/assets/locationassets/door.png"
+            },
+            "delvedoor": {
+                "atLocation": "a delve",
+                "posX": 63,
+                "posY": 287,
+                "texture": "../src/assets/locationassets/door.png"
+            }
+        }
+    }
+}
