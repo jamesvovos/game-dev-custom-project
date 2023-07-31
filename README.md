@@ -23,6 +23,7 @@ g++ src/*.cpp -o game.exe -g -Wall -Wno-missing-braces -Iinclude -Llib -lraylib 
 
 ## 3. Run the game executable
 Once the Make command has been run successfully, there should be a pengl32.exe application ready to run in the projects root directy.
+
 ![PenglExampleImage](https://i.postimg.cc/MGNhXLk3/pengl.png)
 
 ## Features
