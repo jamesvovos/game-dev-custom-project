@@ -23,12 +23,14 @@ g++ src/*.cpp -o game.exe -g -Wall -Wno-missing-braces -Iinclude -Llib -lraylib 
 
 ## 3. Run the game executable
 Once the Make command has been run successfully, there should be a pengl32.exe application ready to run in the projects root directy.
+![PenglExampleImage](https://i.postimg.cc/MGNhXLk3/pengl.png)
 
 ## Features
 
 - Implementation of Raylib graphics library (no game engine used).
 - Implementation of different software design patterns in C++. This includes the state, composite, component, command and factory design patterns..
 - Graph and node data structures to represent the game world with different locations containing a list of adjacted location nodes in which players can travel to.
+- Player inventory system.
 - Audio using Raylib.
 
 ## License
