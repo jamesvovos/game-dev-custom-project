@@ -4,7 +4,7 @@
 ![GameImage](https://i.postimg.cc/PqJjCZCJ/game-project2.png)
 
 ## Installation Guide
-- FastAPI installation instructions [Chocolatey website](https://docs.chocolatey.org/en-us/choco/setup)
+- Chocolatey installation instructions [Chocolatey website](https://docs.chocolatey.org/en-us/choco/setup)
 - C++ installation instructions [C++ Install Tutorial](https://www.youtube.com/watch?v=0HD0pqVtsmw&t=2s)
 - Alternative C++ installation instructions [Microsoft website](https://learn.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170)
 
