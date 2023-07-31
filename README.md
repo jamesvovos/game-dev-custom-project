@@ -29,8 +29,8 @@ Once the Make command has been run successfully, there should be a pengl32.exe a
 
 - Implementation of Raylib graphics library (no game engine used).
 - Implementation of different software design patterns in C++. This includes the state, composite, component, command and factory design patterns.
-- Graph and node data structures to represent the game world with different locations containing a list of adjacted location nodes in which players can travel to.
-- Player inventory system.
+- Graph and node data structures to represent the game world with different locations. Locations contain a list of adjacent location nodes in which players can travel to.
+- Player inventory system using vector data structure.
 - Basic axis-aligned bounding box collision detection.
 - Audio using Raylib.
 
